@@ -1,0 +1,20 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "A 7 segment digital clock",
+  "main": "webpack.config.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.5.0-dev.20170614",
+    "typings": "^2.1.1",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "prepublish": "typings install",
+    "watch": "webpack --watch"
+  },
+  "author": "Mike Dice mikedice417@hotmail.com",
+  "license": "ISC"
+}
